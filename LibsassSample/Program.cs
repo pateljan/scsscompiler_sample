@@ -14,8 +14,8 @@ namespace LibsassSample
             _filesDirectoryPath = Path.GetFullPath(Path.Combine(_filesDirectoryPath, "Files"));
             Console.WriteLine($"Include File Directory : {_filesDirectoryPath}");
             CompileIncludeFile();
-            CompileContent();
-            CompileFile();
+            //CompileContent();
+            //CompileFile();
         }
 
         protected static void CompileIncludeFile()
