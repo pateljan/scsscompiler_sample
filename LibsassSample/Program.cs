@@ -11,7 +11,7 @@ namespace LibsassSample
         static void Main(string[] args)
         {
             _filesDirectoryPath = AppDomain.CurrentDomain.BaseDirectory;
-            _filesDirectoryPath = Path.GetFullPath(Path.Combine(_filesDirectoryPath, "Files"));
+            //_filesDirectoryPath = Path.GetFullPath(Path.Combine(_filesDirectoryPath, "Files"));
             Console.WriteLine($"Include File Directory : {_filesDirectoryPath}");
             CompileIncludeFile();
             //CompileContent();
@@ -27,7 +27,12 @@ namespace LibsassSample
 
             try
             {
-                var options = new CompilationOptions { IncludePaths = { _filesDirectoryPath } };
+                var options = new CompilationOptions {
+                    IncludePaths = {
+                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "Files")),
+                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "common"))
+                    }
+                };
                 CompilationResult result = SassCompiler.Compile(inputContent, options: options);
                 WriteOutput(result);
             }

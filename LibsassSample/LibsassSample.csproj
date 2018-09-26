@@ -52,256 +52,256 @@
     <None Update="Files\blocks\_header-02-01.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\bootstrap-grid.scss">
+    <None Update="common\bootstrap\bootstrap-grid.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\bootstrap-reboot.scss">
+    <None Update="common\bootstrap\bootstrap-reboot.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_alert.scss">
+    <None Update="common\bootstrap\mixins\_alert.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_background-variant.scss">
+    <None Update="common\bootstrap\mixins\_background-variant.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_badge.scss">
+    <None Update="common\bootstrap\mixins\_badge.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_border-radius.scss">
+    <None Update="common\bootstrap\mixins\_border-radius.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_box-shadow.scss">
+    <None Update="common\bootstrap\mixins\_box-shadow.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_breakpoints.scss">
+    <None Update="common\bootstrap\mixins\_breakpoints.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_buttons.scss">
+    <None Update="common\bootstrap\mixins\_buttons.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_caret.scss">
+    <None Update="common\bootstrap\mixins\_caret.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_clearfix.scss">
+    <None Update="common\bootstrap\mixins\_clearfix.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_float.scss">
+    <None Update="common\bootstrap\mixins\_float.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_forms.scss">
+    <None Update="common\bootstrap\mixins\_forms.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_gradients.scss">
+    <None Update="common\bootstrap\mixins\_gradients.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_grid-framework.scss">
+    <None Update="common\bootstrap\mixins\_grid-framework.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_grid.scss">
+    <None Update="common\bootstrap\mixins\_grid.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_hover.scss">
+    <None Update="common\bootstrap\mixins\_hover.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_image.scss">
+    <None Update="common\bootstrap\mixins\_image.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_list-group.scss">
+    <None Update="common\bootstrap\mixins\_list-group.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_lists.scss">
+    <None Update="common\bootstrap\mixins\_lists.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_nav-divider.scss">
+    <None Update="common\bootstrap\mixins\_nav-divider.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_navbar-align.scss">
+    <None Update="common\bootstrap\mixins\_navbar-align.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_pagination.scss">
+    <None Update="common\bootstrap\mixins\_pagination.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_reset-text.scss">
+    <None Update="common\bootstrap\mixins\_reset-text.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_resize.scss">
+    <None Update="common\bootstrap\mixins\_resize.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_screen-reader.scss">
+    <None Update="common\bootstrap\mixins\_screen-reader.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_size.scss">
+    <None Update="common\bootstrap\mixins\_size.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_table-row.scss">
+    <None Update="common\bootstrap\mixins\_table-row.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_text-emphasis.scss">
+    <None Update="common\bootstrap\mixins\_text-emphasis.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_text-hide.scss">
+    <None Update="common\bootstrap\mixins\_text-hide.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_text-truncate.scss">
+    <None Update="common\bootstrap\mixins\_text-truncate.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_transition.scss">
+    <None Update="common\bootstrap\mixins\_transition.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\mixins\_visibility.scss">
+    <None Update="common\bootstrap\mixins\_visibility.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_align.scss">
+    <None Update="common\bootstrap\utilities\_align.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_background.scss">
+    <None Update="common\bootstrap\utilities\_background.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_borders.scss">
+    <None Update="common\bootstrap\utilities\_borders.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_clearfix.scss">
+    <None Update="common\bootstrap\utilities\_clearfix.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_display.scss">
+    <None Update="common\bootstrap\utilities\_display.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_embed.scss">
+    <None Update="common\bootstrap\utilities\_embed.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_flex.scss">
+    <None Update="common\bootstrap\utilities\_flex.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_float.scss">
+    <None Update="common\bootstrap\utilities\_float.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_position.scss">
+    <None Update="common\bootstrap\utilities\_position.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_screenreaders.scss">
+    <None Update="common\bootstrap\utilities\_screenreaders.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_sizing.scss">
+    <None Update="common\bootstrap\utilities\_sizing.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_spacing.scss">
+    <None Update="common\bootstrap\utilities\_spacing.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_text.scss">
+    <None Update="common\bootstrap\utilities\_text.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\utilities\_visibility.scss">
+    <None Update="common\bootstrap\utilities\_visibility.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_alert.scss">
+    <None Update="common\bootstrap\_alert.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_badge.scss">
+    <None Update="common\bootstrap\_badge.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_bootstrap.scss">
+    <None Update="common\bootstrap\_bootstrap.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_breadcrumb.scss">
+    <None Update="common\bootstrap\_breadcrumb.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_button-group.scss">
+    <None Update="common\bootstrap\_button-group.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_buttons.scss">
+    <None Update="common\bootstrap\_buttons.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_card.scss">
+    <None Update="common\bootstrap\_card.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_carousel.scss">
+    <None Update="common\bootstrap\_carousel.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_close.scss">
+    <None Update="common\bootstrap\_close.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_code.scss">
+    <None Update="common\bootstrap\_code.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_components.scss">
+    <None Update="common\bootstrap\_components.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_custom-forms.scss">
+    <None Update="common\bootstrap\_custom-forms.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_dropdown.scss">
+    <None Update="common\bootstrap\_dropdown.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_forms.scss">
+    <None Update="common\bootstrap\_forms.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_functions.scss">
+    <None Update="common\bootstrap\_functions.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_grid.scss">
+    <None Update="common\bootstrap\_grid.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_images.scss">
+    <None Update="common\bootstrap\_images.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_input-group.scss">
+    <None Update="common\bootstrap\_input-group.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_jumbotron.scss">
+    <None Update="common\bootstrap\_jumbotron.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_list-group.scss">
+    <None Update="common\bootstrap\_list-group.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_media.scss">
+    <None Update="common\bootstrap\_media.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_mixins.scss">
+    <None Update="common\bootstrap\_mixins.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_modal.scss">
+    <None Update="common\bootstrap\_modal.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_nav.scss">
+    <None Update="common\bootstrap\_nav.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_navbar.scss">
+    <None Update="common\bootstrap\_navbar.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_pagination.scss">
+    <None Update="common\bootstrap\_pagination.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_popover.scss">
+    <None Update="common\bootstrap\_popover.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_print.scss">
+    <None Update="common\bootstrap\_print.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_progress.scss">
+    <None Update="common\bootstrap\_progress.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_reboot.scss">
+    <None Update="common\bootstrap\_reboot.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_root.scss">
+    <None Update="common\bootstrap\_root.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_tables.scss">
+    <None Update="common\bootstrap\_tables.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_tooltip.scss">
+    <None Update="common\bootstrap\_tooltip.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_transitions.scss">
+    <None Update="common\bootstrap\_transitions.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_type.scss">
+    <None Update="common\bootstrap\_type.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_utilities.scss">
+    <None Update="common\bootstrap\_utilities.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Files\bootstrap\_variables.scss">
+    <None Update="common\bootstrap\_variables.scss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Files\custom.scss">
