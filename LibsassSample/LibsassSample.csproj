@@ -10,9 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibSassHost" Version="1.1.9" />
-    <PackageReference Include="LibSassHost.Native.linux-x64" Version="1.1.9" />
-    <PackageReference Include="LibSassHost.Native.win-x64" Version="1.1.9" />
+    <PackageReference Include="SharpScss" Version="1.4.0" />
   </ItemGroup>
 
   <ItemGroup>
