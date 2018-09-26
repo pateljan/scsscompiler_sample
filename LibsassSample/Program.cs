@@ -30,8 +30,8 @@ namespace LibsassSample
                 var options = new ScssOptions
                 {
                     IncludePaths = {
-                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "common")),
-                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "Files"))
+                        Path.GetFullPath(Path.Combine(_filesDirectoryPath,"Themes", "common", "scss")),
+                        Path.GetFullPath(Path.Combine(_filesDirectoryPath,"Themes","heera", "scss"))
                     }
 
                 };
