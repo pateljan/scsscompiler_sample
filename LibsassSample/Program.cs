@@ -26,11 +26,11 @@ namespace LibsassSample
                                         @"@import ""heera_variables"";";
 
             try
-            {
+            {                
                 var options = new CompilationOptions {
                     IncludePaths = {
-                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "Files")),
-                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "common"))
+                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "common")),
+                        Path.GetFullPath(Path.Combine(_filesDirectoryPath, "Files"))
                     }
                 };
                 CompilationResult result = SassCompiler.Compile(inputContent, options: options);
