@@ -1,0 +1,30 @@
+/*
+/*	CONTENT BLOCK 01-01
+/*----------------------------------------------------*/
+.content-02-01 { 
+    .ysi-subtitle{  
+		color: $secondary; 
+		display: block;
+		font-size: 40px;
+		font-family: $subheadings-font-family;
+	}
+	.ysi-title{
+		font-family: $headings-font-family;
+	} 
+	.ysi-text-wrapper{
+		margin-top:45px; 
+		p{ 
+		  font-size: 15px;
+		  font-family: $font-family-base;
+		  color: rgb(128, 128, 128); 
+		  line-height: 1.867;   
+		}
+	}
+	.btn{
+		border: 1px solid $secondary;
+		background: 0 0;
+		letter-spacing: 2px;
+		color: #333;
+		text-shadow: 0 1px 1px rgba(255,255,255,.75);
+	}
+}

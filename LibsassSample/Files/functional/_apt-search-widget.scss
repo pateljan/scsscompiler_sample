@@ -1,0 +1,9 @@
+/*	APARTMENT SEARCH WIDGET
+/*----------------------------------------------------*/
+.apt-search-widget {
+   .apt-search-wrapper .form-control,
+   .apt-search-wrapper select.form-control:not([size]):not([multiple]){
+		line-height: 50px;
+		height: calc(3.1rem + 2px);
+	}
+}

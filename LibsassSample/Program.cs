@@ -22,7 +22,8 @@ namespace LibsassSample
         {
             WriteHeader("Compilation of SCSS code");
 
-            const string inputContent = @"@import ""style"";";
+            string inputContent = @"@import ""heera""; " + Environment.NewLine +
+                                        @"@import ""heera_variables"";";
 
             try
             {

@@ -1,0 +1,30 @@
+/* Custom CSS rules come here */
+.btn {
+    text-transform: uppercase;
+	    padding: 15px 45px; 
+		font-weight: 500;
+}
+
+.ysi-content-block{
+	padding: 15vh 0px;
+} 
+
+/**************** Global Classes ****************/
+.btn-round {
+    border-radius: 5px;
+}
+.btn-round-xs {
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn-round-sm {
+    border-radius: 8px;
+}
+.btn-round-md {
+    border-radius: 10px;
+}
+.btn-round-lg {
+    border-radius: 80px;
+}
+.h-100vh{ height:100vh !important;}

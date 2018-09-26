@@ -1,0 +1,191 @@
+/* 
+/*	HEADER BLOCK 02-01
+/*----------------------------------------------------*/
+.header-02-01 {
+    height: 100vh;
+	.ysi-header-logo-wrapper{
+		z-index:1;
+		img{
+			max-width:220px;
+			max-height:150px;
+		}
+	}
+    &.background-wrapper {
+        background: url('../../assets/images/image-0002.jpg') no-repeat center center;
+        background-size: cover;
+        color: $white;
+    }
+	.ysi-header-holder {
+		min-height: 64px;
+		background: $secondary;
+		color: #514c45;
+		font-weight: 600;
+		
+		ul{
+			background: $secondary;
+		}
+		a{
+			color:$tertiary;
+			
+			&:hover{
+				color:$white;
+			}
+		}
+	}
+    .header-menu-holder {
+        top: 10px;
+        right: 0;
+		left:0;
+        z-index: 11;
+        width: 100%;
+        position: absolute;
+	
+		.ysi-menu-wrapper{ 
+            background: $black;
+            width: calc(100% - 64px);
+            height: calc(100vh - 30px);
+		}
+        .main-menu {
+            top: 0;
+            left: 64px;
+            margin: 0;
+            z-index: 1;
+            padding: 3em 0 2em;
+            position: absolute;
+            transform: translateY(-110%);
+            transition: transform 0.3s cubic-bezier(1,0.5,0,1);
+
+            &.active {
+                transform: translateY(0);
+            }
+
+            li {
+                list-style: none;
+
+                a {
+                    padding: 1em;
+                    color: $white;
+                    display: block;
+                    background: none;
+                    line-height: 1em;
+                    font-size: 1.6em;
+                    text-align: center;
+                    text-decoration: none;
+                    transition: background 0.2s ease-in-out; 
+
+                    &:hover,
+                    &:focus,
+                    &:active {
+                           background: transparent;
+						   color: $secondary;
+                    }
+                }
+
+                ul {
+                    padding: 0.5em 0;
+
+                    li a {
+                        font-size: 1.2em;
+                        padding: 0.9em;
+
+                        span {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .menu-toggle   {
+		border: 0;
+		position: absolute;
+		left: 0;
+		top: 0px;
+		width: 64px;
+		height: 64px;
+		background-color: $tertiary;
+		-moz-transition: all .5s cubic-bezier(.77,0,.175,1);
+		-o-transition: all .5s cubic-bezier(.77,0,.175,1);
+		-webkit-transition: all .5s cubic-bezier(.77,0,.175,1);
+		transition: all .5s cubic-bezier(.77,0,.175,1) .4s;
+		cursor: pointer;
+		z-index: 9; 
+
+        .hamburger-strip {
+			position: absolute;
+			left: 25%;
+			width: 50%;
+			height: 2px;
+			margin-top: 4px;
+			background-color: #fff;
+			-moz-transition: all .8s cubic-bezier(.77,0,.175,1);
+			-o-transition: all .8s cubic-bezier(.77,0,.175,1);
+			-webkit-transition: all .8s cubic-bezier(.77,0,.175,1);
+			transition: all .8s cubic-bezier(.77,0,.175,1);
+			z-index: 1;
+		}
+		.hamburger-strip:nth-child(1) {
+			top: 20px;
+		}
+		.hamburger-strip:nth-child(2) {
+			top: 27px;
+		}
+		.hamburger-strip:nth-child(3) {
+			top: 34px;
+		}
+ 
+    }
+
+		
+		.menu-close .hamburger-strip:nth-child(1) {
+			-moz-transform: translate(0,7px) rotate(45deg);
+			-ms-transform: translate(0,7px) rotate(45deg);
+			-webkit-transform: translate(0,7px) rotate(45deg);
+			transform: translate(0,7px) rotate(45deg);
+		}
+		.menu-close .hamburger-strip:nth-child(2) {
+			-moz-transform: scale(0,1);
+			-ms-transform: scale(0,1);
+			-webkit-transform: scale(0,1);
+			transform: scale(0,1);
+		}
+		.menu-close .hamburger-strip:nth-child(3) {
+			-moz-transform: translate(0,-7px) rotate(-45deg);
+			-ms-transform: translate(0,-7px) rotate(-45deg);
+			-webkit-transform: translate(0,-7px) rotate(-45deg);
+			transform: translate(0,-7px) rotate(-45deg);
+		}
+ 
+	
+	.cover-fit{
+		object-fit:cover;
+	}
+	.border-frame {
+		position: absolute;
+		width: calc(100% - 80px);
+		height: calc(100% - 80px);
+		left: 0;
+		right:0;
+		top: 0;
+		bottom:0;
+		margin:auto;
+		z-index: 1;
+	}
+	.border-frame1, .border-frame2 {
+		z-index: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border: 1px solid fade-out($white, .6);
+		left:0;
+		top:0;
+	} 
+	.border-frame1 {
+		z-index: 0;
+		left: -5px;
+		width: calc(100% + 10px);
+		height: calc(100% - 10px);
+		top: 5px;
+	}
+}

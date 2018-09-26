@@ -1,0 +1,64 @@
+/*
+/*	CONTENT BLOCK 02-02
+/*----------------------------------------------------*/
+.content-02-02 { 
+    position: relative; 
+	background-color: $tertiary;
+	
+	p{
+		color:#808080;
+	}
+    .ysi-background-wrapper {
+		    position: relative;
+       background: url('/images/apt-search-background.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; 
+		    min-height: 70vh;
+    }  
+	.ysi-subtitle{  
+		color: #ad8d23; 
+		display: block;
+		font-size: 40.005px;
+		font-family: $subheadings-font-family;
+	}
+	.ysi-title{
+		font-family: $headings-font-family;
+	} 
+ 
+	.btn{width:100%;} 
+	.border-frame {
+		position: absolute;
+		width: calc(100% - 40px);
+		left: 20px;
+		height: calc(100% - 40px);
+		top: 20px;
+	}
+	.border-frame1, .border-frame2 {
+		z-index: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border: 1px solid fade-out($white, .6);
+		left:0;
+		top:0;
+	} 
+	.border-frame1 {
+		z-index: 0;
+		left: -5px;
+		width: calc(100% + 10px);
+		height: calc(100% - 10px);
+		top: 5px;
+	}
+	
+	
+	span.ysi-title-separator {
+		width: 100%;
+		height: 1px;
+		background:darken($white,20%);
+		display: inline-block;
+		clear: both;
+		margin: 10px;
+	}
+}

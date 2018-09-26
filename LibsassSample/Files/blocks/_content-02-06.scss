@@ -1,0 +1,27 @@
+/*
+/*	CONTENT BLOCK 01-06
+/*----------------------------------------------------*/
+.content-02-06 {  
+
+	.filter-grayscale{
+		-webkit-filter: grayscale(1);
+		-moz-filter: grayscale(1);
+		-o-filter: grayscale(1);
+		-ms-filter: grayscale(1);
+		filter: grayscale(1); 
+		
+		-webkit-transition: all .6s ease;
+		-moz-transition: all .6s ease;
+		-o-transition: all .6s ease;
+		transition: all .6s ease;
+		
+		&:hover{
+			 -webkit-filter: grayscale(0);
+		-moz-filter: grayscale(0);
+		-o-filter: grayscale(0);
+		-ms-filter: grayscale(0);
+		filter: grayscale(0);
+		
+		}
+	}
+}
